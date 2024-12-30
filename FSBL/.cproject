@@ -50,10 +50,10 @@
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths.989565470" name="Include paths (-I)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="../Core/Inc"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ThirdParty/FreeRTOS/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/edge-anpr/FSBL/ThirdParty/FreeRTOS/portable/GCC/ARM_CM55_NTZ/non_secure}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/edge-anpr/ThirdParty/FreeRTOS/portable/MemMang}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ThirdParty/FreeRTOS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ThirdParty/FreeRTOS/Source/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/edge-anpr/FSBL/ThirdParty/FreeRTOS/Source/portable/GCC/ARM_CM55_NTZ/non_secure}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/edge-anpr/ThirdParty/FreeRTOS/Source/portable/MemMang}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ThirdParty/FreeRTOS/Source}&quot;"/>
 									<listOptionValue builtIn="false" value="../../Drivers/STM32N6xx_HAL_Driver/Inc"/>
 									<listOptionValue builtIn="false" value="../../Drivers/CMSIS/Device/ST/STM32N6xx/Include"/>
 									<listOptionValue builtIn="false" value="../../Drivers/STM32N6xx_HAL_Driver/Inc/Legacy"/>
