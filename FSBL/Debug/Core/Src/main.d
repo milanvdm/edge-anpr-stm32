@@ -57,7 +57,17 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../../Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_ll_pwr.h \
  ../../Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_ll_gpio.h \
  ../../Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_ll_dma.h \
- ../../Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_ll_exti.h
+ ../../Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_ll_exti.h \
+ /Users/milanvdm/dev/personal/stm32/edge-anpr/FSBL/ThirdParty/FreeRTOS/include/FreeRTOS.h \
+ ../Core/Inc/FreeRTOSConfig.h \
+ /Users/milanvdm/dev/personal/stm32/edge-anpr/FSBL/ThirdParty/FreeRTOS/include/projdefs.h \
+ /Users/milanvdm/dev/personal/stm32/edge-anpr/FSBL/ThirdParty/FreeRTOS/include/portable.h \
+ /Users/milanvdm/dev/personal/stm32/edge-anpr/FSBL/ThirdParty/FreeRTOS/include/deprecated_definitions.h \
+ /Users/milanvdm/dev/personal/stm32/edge-anpr/FSBL/ThirdParty/FreeRTOS/portable/GCC/ARM_CM55_NTZ/non_secure/portmacro.h \
+ /Users/milanvdm/dev/personal/stm32/edge-anpr/FSBL/ThirdParty/FreeRTOS/portable/GCC/ARM_CM55_NTZ/non_secure/portmacrocommon.h \
+ /Users/milanvdm/dev/personal/stm32/edge-anpr/FSBL/ThirdParty/FreeRTOS/include/mpu_wrappers.h \
+ /Users/milanvdm/dev/personal/stm32/edge-anpr/FSBL/ThirdParty/FreeRTOS/include/task.h \
+ /Users/milanvdm/dev/personal/stm32/edge-anpr/FSBL/ThirdParty/FreeRTOS/include/list.h
 ../Core/Inc/main.h:
 ../../Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal.h:
 ../Core/Inc/stm32n6xx_hal_conf.h:
@@ -118,3 +128,13 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../../Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_ll_gpio.h:
 ../../Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_ll_dma.h:
 ../../Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_ll_exti.h:
+/Users/milanvdm/dev/personal/stm32/edge-anpr/FSBL/ThirdParty/FreeRTOS/include/FreeRTOS.h:
+../Core/Inc/FreeRTOSConfig.h:
+/Users/milanvdm/dev/personal/stm32/edge-anpr/FSBL/ThirdParty/FreeRTOS/include/projdefs.h:
+/Users/milanvdm/dev/personal/stm32/edge-anpr/FSBL/ThirdParty/FreeRTOS/include/portable.h:
+/Users/milanvdm/dev/personal/stm32/edge-anpr/FSBL/ThirdParty/FreeRTOS/include/deprecated_definitions.h:
+/Users/milanvdm/dev/personal/stm32/edge-anpr/FSBL/ThirdParty/FreeRTOS/portable/GCC/ARM_CM55_NTZ/non_secure/portmacro.h:
+/Users/milanvdm/dev/personal/stm32/edge-anpr/FSBL/ThirdParty/FreeRTOS/portable/GCC/ARM_CM55_NTZ/non_secure/portmacrocommon.h:
+/Users/milanvdm/dev/personal/stm32/edge-anpr/FSBL/ThirdParty/FreeRTOS/include/mpu_wrappers.h:
+/Users/milanvdm/dev/personal/stm32/edge-anpr/FSBL/ThirdParty/FreeRTOS/include/task.h:
+/Users/milanvdm/dev/personal/stm32/edge-anpr/FSBL/ThirdParty/FreeRTOS/include/list.h:
